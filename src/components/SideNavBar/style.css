@@ -1,0 +1,12 @@
+.p-sidebar {
+  width: 260px;
+}
+.side-nav-btn {
+  min-height: 100% !important;
+  background-color: #ff3b30 !important;
+  border: #ff3b30 !important;
+}
+.side-nav-btn:hover {
+  background-color: #cc2e26 !important;
+}
+

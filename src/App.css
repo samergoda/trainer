@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #FF3B30; 
+  --secondary-color: #4A4A4A; 
+  --accent-color: #FF9500; 
+  --neutral-color: #F2F2F2; 
+  --highlight-color: #FFCC00; 
+}
+
+*{
+  margin: 0;
+}
+body{
+  background-color:var(--neutral-color);
+
+}
+a{
+  text-decoration: none !important;
+}
+
+.fadeout{
+  display: none;
+}
+.fadein{
+  display:block;
+}
