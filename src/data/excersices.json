@@ -1,0 +1,314 @@
+{
+    "gymExercises": {
+      "Chest": {
+        "Barbell": [
+          {
+            "name": "Barbell Bench Press",
+            "description": "A compound exercise that targets the chest, shoulders, and triceps.",
+            "instructions": [
+              "Lie back on a flat bench holding a barbell with a medium-width grip.",
+              "Lift the barbell from the rack and hold it straight over you with your arms locked.",
+              "Lower the bar slowly until it touches your middle chest.",
+              "Push the bar back to the starting position."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          },
+          {
+            "name": "Incline Barbell Bench Press",
+            "description": "Targets the upper chest, shoulders, and triceps.",
+            "instructions": [
+              "Set an incline bench to a 30-45 degree angle.",
+              "Lie back on the bench holding a barbell with a medium-width grip.",
+              "Lift the barbell from the rack and hold it straight over you with your arms locked.",
+              "Lower the bar slowly until it touches your upper chest.",
+              "Push the bar back to the starting position."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          }
+        ],
+        "Dumbbell": [
+          {
+            "name": "Dumbbell Bench Press",
+            "description": "A compound exercise that targets the chest, shoulders, and triceps.",
+            "instructions": [
+              "Lie back on a flat bench holding a dumbbell in each hand at chest level.",
+              "Press the dumbbells upward until your arms are fully extended.",
+              "Lower the weights slowly back to the starting position."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          },
+          {
+            "name": "Incline Dumbbell Bench Press",
+            "description": "Targets the upper chest, shoulders, and triceps.",
+            "instructions": [
+              "Set an incline bench to a 30-45 degree angle.",
+              "Lie back on the bench holding a dumbbell in each hand at chest level.",
+              "Press the dumbbells upward until your arms are fully extended.",
+              "Lower the weights slowly back to the starting position."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          }
+        ]
+      },
+      "Back": {
+        "Barbell": [
+          {
+            "name": "Barbell Deadlift",
+            "description": "A compound exercise that targets the lower back, glutes, and hamstrings.",
+            "instructions": [
+              "Stand with your mid-foot under the barbell.",
+              "Bend over and grab the bar with a shoulder-width grip.",
+              "Bend your knees until your shins touch the bar.",
+              "Lift your chest up and straighten your lower back.",
+              "Stand up with the weight."
+            ],
+            "reps": "5-8",
+            "sets": "3-4"
+          },
+          {
+            "name": "Barbell Row",
+            "description": "Targets the middle and upper back, as well as the biceps.",
+            "instructions": [
+              "Stand with your feet shoulder-width apart and bend your knees slightly.",
+              "Bend over at the waist, keeping your back straight, and hold a barbell with a shoulder-width grip.",
+              "Pull the barbell to your lower chest.",
+              "Lower the barbell back to the starting position."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          }
+        ],
+        "Dumbbell": [
+          {
+            "name": "One-Arm Dumbbell Row",
+            "description": "Targets the middle and upper back, as well as the biceps.",
+            "instructions": [
+              "Place one knee and hand on a bench for support.",
+              "Hold a dumbbell in the opposite hand with your arm extended.",
+              "Pull the dumbbell to your hip, keeping your back straight.",
+              "Lower the dumbbell back to the starting position."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          },
+          {
+            "name": "Dumbbell Pullover",
+            "description": "Targets the upper chest and back.",
+            "instructions": [
+              "Lie back on a bench holding a dumbbell with both hands over your chest.",
+              "Lower the dumbbell back and over your head in an arc.",
+              "Raise the dumbbell back to the starting position."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          }
+        ]
+      },
+      "Legs": {
+        "Barbell": [
+          {
+            "name": "Barbell Squat",
+            "description": "A compound exercise that targets the quads, hamstrings, glutes, and lower back.",
+            "instructions": [
+              "Stand with your feet shoulder-width apart and place a barbell across your upper back.",
+              "Lower your body by bending your knees and hips, keeping your back straight.",
+              "Descend until your thighs are parallel to the floor.",
+              "Push through your heels to return to the starting position."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          },
+          {
+            "name": "Barbell Lunge",
+            "description": "Targets the quads, hamstrings, and glutes.",
+            "instructions": [
+              "Stand with your feet together and place a barbell across your upper back.",
+              "Step forward with one leg and lower your body until your front thigh is parallel to the floor.",
+              "Push through your front heel to return to the starting position.",
+              "Repeat with the other leg."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          }
+        ],
+        "Machine": [
+          {
+            "name": "Leg Press",
+            "description": "Targets the quads, hamstrings, and glutes.",
+            "instructions": [
+              "Sit on the leg press machine with your feet shoulder-width apart on the platform.",
+              "Lower the platform by bending your knees until your thighs are parallel to the floor.",
+              "Push the platform back to the starting position."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          },
+          {
+            "name": "Leg Extension",
+            "description": "Targets the quads.",
+            "instructions": [
+              "Sit on the leg extension machine with your feet under the padded bar.",
+              "Extend your legs to lift the weight.",
+              "Lower the weight back to the starting position."
+            ],
+            "reps": "10-15",
+            "sets": "3-4"
+          }
+        ]
+      },
+      "Shoulders": {
+        "Dumbbell": [
+          {
+            "name": "Dumbbell Shoulder Press",
+            "description": "Targets the shoulders and triceps.",
+            "instructions": [
+              "Sit on a bench with back support and hold a dumbbell in each hand at shoulder level.",
+              "Press the dumbbells overhead until your arms are fully extended.",
+              "Lower the dumbbells back to the starting position."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          },
+          {
+            "name": "Lateral Raise",
+            "description": "Targets the side deltoids.",
+            "instructions": [
+              "Stand with a dumbbell in each hand at your sides.",
+              "Raise your arms out to the sides until they are at shoulder height.",
+              "Lower the dumbbells back to the starting position."
+            ],
+            "reps": "10-15",
+            "sets": "3-4"
+          }
+        ],
+        "Barbell": [
+          {
+            "name": "Barbell Overhead Press",
+            "description": "Targets the shoulders and triceps.",
+            "instructions": [
+              "Stand with your feet shoulder-width apart and hold a barbell at shoulder level.",
+              "Press the barbell overhead until your arms are fully extended.",
+              "Lower the barbell back to the starting position."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          },
+          {
+            "name": "Barbell Upright Row",
+            "description": "Targets the shoulders and traps.",
+            "instructions": [
+              "Stand with your feet shoulder-width apart and hold a barbell with an overhand grip.",
+              "Lift the barbell to your chest, keeping it close to your body.",
+              "Lower the barbell back to the starting position."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          }
+        ]
+      },
+      "Arms": {
+        "Dumbbell": [
+          {
+            "name": "Dumbbell Bicep Curl",
+            "description": "Targets the biceps.",
+            "instructions": [
+              "Stand with a dumbbell in each hand at your sides.",
+              "Curl the dumbbells up to shoulder level, keeping your elbows close to your body.",
+              "Lower the dumbbells back to the starting position."
+            ],
+            "reps": "10-15",
+            "sets": "3-4"
+          },
+          {
+            "name": "Dumbbell Tricep Extension",
+            "description": "Targets the triceps.",
+            "instructions": [
+              "Hold a dumbbell with both hands and raise it overhead.",
+              "Lower the dumbbell behind your head by bending your elbows.",
+              "Extend your arms to return to the starting position."
+            ],
+            "reps": "10-15",
+            "sets": "3-4"
+          }
+        ],
+        "Barbell": [
+          {
+            "name": "Barbell Curl",
+            "description": "Targets the biceps.",
+            "instructions": [
+              "Stand with your feet shoulder-width apart and hold a barbell with an underhand grip.",
+              "Curl the barbell up to shoulder level, keeping your elbows close to your body.",
+              "Lower the barbell back to the starting position."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          },
+          {
+            "name": "Close-Grip Barbell Bench Press",
+            "description": "Targets the triceps and chest.",
+            "instructions": [
+              "Lie back on a flat bench holding a barbell with a narrow grip.",
+              "Lower the bar to your chest.",
+              "Push the bar back to the starting position."
+            ],
+            "reps": "8-12",
+            "sets": "3-4"
+          }
+        ]
+      },
+      "Core": {
+        "Bodyweight": [
+          {
+            "name": "Plank",
+            "description": "Targets the core.",
+            "instructions": [
+              "Get into a forearm plank position, keeping your body in a straight line from head to heels.",
+              "Hold this position for as long as possible."
+            ],
+            "time": "30-60 seconds",
+            "sets": "3-4"
+          },
+          {
+            "name": "Bicycle Crunch",
+            "description": "Targets the abs and obliques.",
+            "instructions": [
+              "Lie on your back with your hands behind your head and your legs lifted.",
+              "Alternate bringing your elbow to the opposite knee while extending the other leg.",
+              "Continue this motion in a pedaling manner."
+            ],
+            "reps": "15-20 per side",
+            "sets": "3-4"
+          }
+        ],
+        "Machine": [
+          {
+            "name": "Cable Crunch",
+            "description": "Targets the abs.",
+            "instructions": [
+              "Kneel below a high pulley with a rope attachment.",
+              "Hold the rope and flex your waist to draw your elbows toward your thighs.",
+              "Return to the starting position."
+            ],
+            "reps": "15-20",
+            "sets": "3-4"
+          },
+          {
+            "name": "Hanging Leg Raise",
+            "description": "Targets the lower abs.",
+            "instructions": [
+              "Hang from a pull-up bar with your arms fully extended.",
+              "Raise your legs until they are parallel to the floor.",
+              "Lower your legs back to the starting position."
+            ],
+            "reps": "10-15",
+            "sets": "3-4"
+          }
+        ]
+      }
+    }
+  }
+  
