@@ -5,13 +5,17 @@ import './../Home/Home.css';
 function Home() {
   return (
     <>
-      <div className='mt-4 container'>
-        <div className='row gap-3'>
-          <Card title='test' body='some text to test' footer='footer test' />
+      <div className='mt-4 container-dash'>
+        <div className='container-cards gap-3'>
+          <Card title='test' body='some text to test' statisticNumber='125' />
+          <Card title='test' body='some text to test' statisticNumber='125' />
+          <Card title='test' body='some text to test' statisticNumber='125' />
+          <Card title='test' body='some text to test' statisticNumber='125' />
         </div>
+        <CustomerTabel />
+
       </div>
 
-      <CustomerTabel />
     </>
   );
 }
