@@ -29,8 +29,43 @@ export const NodeService = [
     {
         key: '0',
         label: 'Clients',
-        data: {id:1, name: 'Ahmed', weight: '80 kg', gender: 'male' },
+        data: { id: 1, name: 'Ahmed', weight: '80 kg', gender: 'male' },
         icon: 'pi pi-fw pi-inbox',
-        children:[]
+        children: []
+    },
+    {
+        key: '1',
+        label: 'Clients',
+        data: { id: 1, name: 'walid', weight: '80 kg', gender: 'male' },
+        icon: 'pi pi-fw pi-inbox',
+        children: []
+    },
+    {
+        key: '2',
+        label: 'Clients',
+        data: { id: 1, name: 'samer', weight: '80 kg', gender: 'male' },
+        icon: 'pi pi-fw pi-inbox',
+        children: []
+    },
+    {
+        key: '3',
+        label: 'Clients',
+        data: { id: 1, name: 'khalead', weight: '80 kg', gender: 'male' },
+        icon: 'pi pi-fw pi-inbox',
+        children: []
+    },
+    {
+        key: '4',
+        label: 'Clients',
+        data: { id: 1, name: 'Ahmed', weight: '80 kg', gender: 'male' },
+        icon: 'pi pi-fw pi-inbox',
+        children: []
+    },
+    {
+        key: '5',
+        label: 'Clients',
+        data: { id: 1, name: 'Ahmed', weight: '80 kg', gender: 'male' },
+        icon: 'pi pi-fw pi-inbox',
+        children: []
     }
 ];

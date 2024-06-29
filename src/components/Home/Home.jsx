@@ -7,7 +7,7 @@ function Home() {
     <>
       <div className='mt-4 container-dash'>
         <div className='container-cards gap-3'>
-          <Card title='test' body='some text to test' statisticNumber='125' />
+          <Card title='Total Clinet' body='some of text ' statisticNumber='125' />
           <Card title='test' body='some text to test' statisticNumber='125' />
           <Card title='test' body='some text to test' statisticNumber='125' />
           <Card title='test' body='some text to test' statisticNumber='125' />
