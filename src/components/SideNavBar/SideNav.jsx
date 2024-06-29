@@ -4,7 +4,12 @@ import { useState } from 'react';
 // import ItemsNav from '../ItemsNav/ItemsNav';
 import '../SideNavBar/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import {
+  faBars,
+  faHouse,
+  faUser,
+  faUsers,
+} from '@fortawesome/free-solid-svg-icons';
 
 export default function SideNav() {
   const [visible, setVisible] = useState(false);
@@ -25,22 +30,36 @@ export default function SideNav() {
         </button>
       </div>
       <div className={`side-nav ${visible ? 'visible' : ''}`}>
-        <ul className='nav flex-column px-5 mt-5'>
+        <ul className='nav flex-column px-3 mt-5'>
           <li className='nav-item'>
-            <a className='nav-link active' aria-current='page' href='/'>
+            <a
+              className='nav-link d-flex gap-2 active'
+              aria-current='page'
+              href='/'
+            >
+              <span className=''>
+                <FontAwesomeIcon icon={faHouse} />
+              </span>
               Home
             </a>
           </li>
           <li className='nav-item'>
-            <a className='nav-link' href='/clients'>
+            <a className='nav-link  d-flex gap-2' href='/clients'>
+              <span className=''>
+                <FontAwesomeIcon icon={faUsers} />
+              </span>
               Clients
             </a>
           </li>
-          {/* <li className='nav-item'>
-          <a className='nav-link' href='#'>
-            Link
-          </a>
-        </li>
+          <li className='nav-item'>
+            <a className='nav-link d-flex gap-2' href='/newClient'>
+              <span className=''>
+                <FontAwesomeIcon icon={faUser} />
+              </span>
+              Add User
+            </a>
+          </li>
+          {/*
         <li className='nav-item'>
           <a className='nav-link disabled' aria-disabled='true'>
             Disabled

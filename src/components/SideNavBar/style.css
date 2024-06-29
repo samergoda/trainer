@@ -6,7 +6,7 @@
     left: -260px; 
     width: 260px;
     height: 100%;
-    background-color: #6d6d6d;
+    background-color: #405189;
     color: #F2F2F2;
     transition: all 0.3s;
     z-index: 1000; 
@@ -17,12 +17,12 @@
   }
   
   .side-nav a {
-    color: #F2F2F2;
+    color: #c4c9e1;
     font-size: 18px;
   }
   
   .side-nav a:hover {
-    color: #000;
+    color: #fff;
   }
   
   .side-nav-btn {
@@ -73,7 +73,7 @@
   
     .side-nav {
       left: 0; 
-      height: auto;
+      height: 100vh;
       position: relative;
     }
   

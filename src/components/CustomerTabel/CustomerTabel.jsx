@@ -35,46 +35,47 @@ export default function StatefulDemo() {
   }, []);
 
   return (
-    <div className='card'>
-      <TreeTable
-        value={nodes}
-        tableStyle={{ minWidth: '50rem' }}
-        stateKey={'tree-table-state-demo-session'}
-        stateStorage={'local'}
-        paginator
-        rows={5}
-        rowsPerPageOptions={[5, 10, 25]}
-      >
-        <Column
-          field='id'
-          header='Id'
-          minWidth
-          filter
-          filterPlaceholder='Filter by Id'
-        ></Column>
-        <Column
-          field='name'
-          header='Name'
-          
-          filter
-          filterPlaceholder='Filter by name'
-        ></Column>
-        <Column
-          field='weight'
-          header='Weight'
-          
-        //   filter
-        //   filterPlaceholder='Filter by weight'
-        ></Column>
-        <Column
-          field='gender'
-          header='Gender'
-          
-          filter
-          filterPlaceholder='Filter by gender'
-        ></Column>
-        <Column body={actionTemplate}  />
-      </TreeTable>
-    </div>
+    <>
+      <h2 className='my-3'>Cutomers</h2>
+      <div className='card'>
+        <TreeTable
+          value={nodes}
+          tableStyle={{ minWidth: '50rem' }}
+          stateKey={'tree-table-state-demo-session'}
+          stateStorage={'local'}
+          paginator
+          rows={5}
+          rowsPerPageOptions={[5, 10, 25]}
+        >
+          <Column
+            field='id'
+            header='Id'
+            minWidth
+            filter
+            filterPlaceholder='Filter by Id'
+          ></Column>
+          <Column
+            field='name'
+            header='Name'
+            filter
+            filterPlaceholder='Filter by name'
+          ></Column>
+          <Column
+            field='weight'
+            header='Weight'
+
+            //   filter
+            //   filterPlaceholder='Filter by weight'
+          ></Column>
+          <Column
+            field='gender'
+            header='Gender'
+            filter
+            filterPlaceholder='Filter by gender'
+          ></Column>
+          <Column body={actionTemplate} />
+        </TreeTable>
+      </div>
+    </>
   );
 }
