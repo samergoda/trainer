@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import SideNav from './../SideNavBar/SideNav';
-import { Outlet, useLocation } from 'react-router-dom';
+import { Link, Outlet, useLocation } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLeftLong } from '@fortawesome/free-solid-svg-icons';
 import './../Layout/style.css';
 function Layout() {
   const [visible, setVisible] = useState(false);
@@ -33,8 +35,17 @@ function Layout() {
       ></SideNav>
       <main className='container'>
         <div className='d-flex mt-3 justify-content-between'>
-          <h2 className='text-dark font-bold'>
-            {location.pathname ? handleRoute(location.pathname) : 'Home'}
+        <h2 className='text-dark font-bold d-flex gap-3 align-items-center'>
+            {location.pathname && location.pathname !== '/' ? (
+              <>
+                <Link to='/' className='fs-3 text-dark'>
+                  <FontAwesomeIcon icon={faLeftLong} />
+                </Link>
+                {handleRoute(location.pathname)}
+              </>
+            ) : (
+              'Home'
+            )}
           </h2>
           <a
             href='/newClient'
