@@ -10,6 +10,7 @@ import {
   faUser,
   faUsers,
 } from '@fortawesome/free-solid-svg-icons';
+import { NavLink } from 'react-router-dom';
 
 export default function SideNav() {
   const [visible, setVisible] = useState(false);
@@ -35,38 +36,38 @@ export default function SideNav() {
         </div>
         <ul className='nav flex-column  mt-3'>
           <li className='nav-item'>
-            <a
-              className='nav-link d-flex gap-2 active'
+            <NavLink
+              className='py-2 px-3 d-flex gap-2 '
               aria-current='page'
-              href='/'
+              to='/'
             >
               <span className=''>
                 <FontAwesomeIcon icon={faHouse} />
               </span>
               Home
-            </a>
+            </NavLink>
           </li>
           <li className='nav-item'>
-            <a className='nav-link  d-flex gap-2' href='/clients'>
+            <NavLink className='py-2 px-3  d-flex gap-2' to='/clients'>
               <span className=''>
                 <FontAwesomeIcon icon={faUsers} />
               </span>
               Clients
-            </a>
+            </NavLink>
           </li>
           <li className='nav-item'>
-            <a className='nav-link d-flex gap-2' href='/newClient'>
+            <NavLink className='py-2 px-3 d-flex gap-2' to='/newClient'>
               <span className=''>
                 <FontAwesomeIcon icon={faUser} />
               </span>
               Add User
-            </a>
+            </NavLink>
           </li>
           {/*
         <li className='nav-item'>
-          <a className='nav-link disabled' aria-disabled='true'>
+          <NavLink className='py-2 px-3 disabled' aria-disabled='true'>
             Disabled
-          </a>
+          </NavLink>
         </li> */}
         </ul>
       </div>

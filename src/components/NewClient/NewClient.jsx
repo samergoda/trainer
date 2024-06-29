@@ -27,7 +27,7 @@ function NewClient() {
       <a href='/' className='fs-3 text-dark'>
         <FontAwesomeIcon icon={faLeftLong} />
       </a>
-      <h2 className='my-3'>ADD NEW USER</h2>
+      <h4 className='my-3'>ADD NEW USER</h4>
       {/* <div className='d-flex'>
         <input
           type='file'
