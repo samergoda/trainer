@@ -31,22 +31,22 @@ function Layout() {
         onHide={() => setVisible(false)}
         role='region'
       ></SideNav>
-     
+
       <main className='main-content'>
         <div className='nav-dash d-flex mt-3 justify-content-between'>
           <h2 className='text-dark font-bold'>
-              {location.pathname ? handleRoute(location.pathname) : 'Home'}
+            {location.pathname ? handleRoute(location.pathname) : 'Home'}
           </h2>
-            <a
-              href='/newClient'
-              rel='noopener noreferrer'
-              className='p-button add-client  text-white font-bold'
-            >
-              Add New Client
-            </a>
-          </div>
-          <Outlet />
-        
+          <a
+            href='/newClient'
+            rel='noopener noreferrer'
+            className='p-button add-client  text-white font-bold'
+          >
+            Add New Client
+          </a>
+        </div>
+        <Outlet />
+
       </main>
     </div>
   );
