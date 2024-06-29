@@ -1,5 +1,12 @@
-@media (max-width:700px){
-.nav-wrapper{
-flex-direction: column !important;
+@media (max-width: 700px) {
+  .nav-wrapper {
+    flex-direction: column !important;
+  }
 }
+.add-client {
+  background-color: #0ab39c;
+  border: #0ab39c;
+}
+.add-client:hover {
+  background-color: #099885;
 }

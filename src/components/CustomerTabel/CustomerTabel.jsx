@@ -36,7 +36,7 @@ export default function StatefulDemo() {
 
   return (
     <>
-      <h2 className='my-3'>Cutomers</h2>
+      <h4 className='my-3'>Cutomers</h4>
       <div className='card'>
         <TreeTable
           value={nodes}
