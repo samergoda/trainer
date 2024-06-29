@@ -74,6 +74,7 @@
     .side-nav {
       left: 0; 
       height: auto;
+      position: relative;
     }
   
     .layout-overlay {
