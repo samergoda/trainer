@@ -29,8 +29,11 @@ export default function SideNav() {
           <FontAwesomeIcon icon={faBars} />
         </button>
       </div>
-      <div className={`side-nav ${visible ? 'visible' : ''}`}>
-        <ul className='nav flex-column px-3 mt-5'>
+      <div className={`side-nav  ${visible ? 'visible' : ''}`}>
+        <div className='logo'>
+          <h3>JooTeam</h3>
+        </div>
+        <ul className='nav flex-column  mt-3'>
           <li className='nav-item'>
             <a
               className='nav-link d-flex gap-2 active'
