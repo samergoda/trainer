@@ -6,6 +6,9 @@ import {
   faBars
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { signOut } from 'firebase/auth';
+import { auth } from '../../firebaseConfig';
+
 
 function Layout() {
   const [visible, setVisible] = useState(false);
@@ -14,6 +17,13 @@ function Layout() {
   const toggleSidebar = () => {
     setVisible(!visible);
   }
+  const handleLogout = async () => {
+    try {
+      await signOut(auth);
+    } catch (error) {
+      console.error('Error logging out:', error.message);
+    }
+  };
 
   function handleRoute(path) {
     if (path === '/') {
@@ -38,6 +48,7 @@ function Layout() {
       <SideNav
         id='sidebar'
         visible={visible}
+        onClickLogout={handleLogout}
         onHide={() => setVisible(false)}
         role='region'
       />
@@ -47,16 +58,22 @@ function Layout() {
           <h2 className='text-dark font-bold'>
             {location.pathname ? handleRoute(location.pathname) : 'Home'}
           </h2>
-          <a
-            href='/newClient'
-            rel='noopener noreferrer'
-            className='p-button add-client  text-white font-bold d-none d-sm-block'
-          >
-            Add New Client
-          </a>
+          <div className='d-flex gap-4'>
+            <a
+              href='/newClient'
+              rel='noopener noreferrer'
+              className='p-button add-client  text-white font-bold d-none d-sm-block'
+            >
+              Add New Client
+            </a>
+            <button onClick={handleLogout} className='p-button add-client  text-white font-bold d-none d-sm-block border-rad rounded-3'
+            >Logout</button>
+
+          </div>
           <button className='toggle-button' onClick={toggleSidebar}>
             <FontAwesomeIcon icon={faBars} />
           </button>
+
         </div>
 
         <Outlet />

@@ -8,7 +8,7 @@ import {
 import { NavLink } from 'react-router-dom';
 import '../SideNavBar/style.css';
 
-export default function SideNav({ visible, onHide }) {
+export default function SideNav({ visible, onHide, onClickLogout }) {
   return (
     <>
       <div className={`side-nav ${visible ? 'visible' : ''}`}>
@@ -52,6 +52,11 @@ export default function SideNav({ visible, onHide }) {
               Active Clients
             </NavLink>
           </li>
+          <li className='nav-item'>
+            <button onClick={onClickLogout} className='p-button add-client  text-white font-bold d-block d-lg-none border-rad rounded-3'
+            >Logout</button>
+          </li>
+
         </ul>
       </div>
       {visible && <div className='layout-overlay' onClick={onHide}></div>}

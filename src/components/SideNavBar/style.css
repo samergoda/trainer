@@ -72,7 +72,34 @@ h6 {
   background-color: #cc2e26 !important;
 }
 
+/* Loading bar  */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #405189;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 
 .layout-overlay {
@@ -156,5 +183,30 @@ h6 {
   .container-cards {
     display: grid;
     grid-template-columns: 1fr;
+  }
+}
+
+.login-form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form form {
+  border: 1px solid #0000003f;
+  padding: 35px;
+  background-color: #fff;
+  margin-bottom: 40px;
+
+}
+
+.login-form form input {
+  min-width: 450px;
+}
+
+@media(max-width: 500px) {
+  .login-form form input {
+    min-width: 300px;
   }
 }
